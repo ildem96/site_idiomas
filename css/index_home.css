@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    
+
+}
+
+p {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: ;
+}
+
+body,
+html {
+    background-color: #052e88;
+    scroll-behavior: smooth;
+}
+
+.nav-menu {
+    background-image: linear-gradient(90deg, #833ab4, #fd1d1d, #ff7300);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 10%;
+}
+
+.nav-menu img {
+    image-rendering: pixelated;
+    width: 120px;
+    height: 115px;
+    margin-top: 8px;
+    width: 52px;
+    height: 50px;
+}
+
+a:hover {
+    color: #4df6e8;
+    cursor: pointer;
+}
+
+.navegacao input {
+    margin-top: 5px;
+    margin-left: 35px;
+
+    width: 252px;
+    height: 40px;
+    margin-left: 50px;
+    border-bottom-left-radius: 8px;
+    border-top-left-radius: 8px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 55px;
+    height: 40px;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    margin-top: 5px;
+    border: none;
+    color: white;
+    background-color: #0091ff;
+}
+
+/*,,,*/
+
+a {
+    color: #FF4C29;
+    text-decoration: none;
+}
+
+span {
+    color: #050505;
+    padding: 10px;
+    font-size: 18px;
+}
+
+.navegacao,
+ul,
+li {
+    display: flex;
+    justify-content: center;
+    margin: ;
+    padding: 10px;
+    color: #052e88;
+}
+
+.imagem-cabecalho {
+    color: ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+.imagem-cabecalho img {
+    image-rendering: pixelated;
+    width: 651px;
+    height: 317px;
+    
+}
+
+/*__________cards e parte principal__________*/
+
+.main-container {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+    padding:50px;
+}
+
+/*#main-title{
+    background-color:#0091ff;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom:50%;
+    margin-left:500px;
+    box-sizing: border-box;]/
+
+
+/*card1--------------------------*/
+
+.card {
+    border-radius: 20px;
+    background-color:white;
+    width: 445px;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content:space-around;
+    box-shadow: 0px 2px 23px #2836402a;
+    margin: 0px 18px;
+    
+}
+
+.image-card img {
+    padding: 20px;
+    width: 450px;
+    height: 340px;
+}
+
+.card-title {
+    padding: 20px;
+}
+
+/*card2--------------------------*/
+.card2 {
+    border-radius: 20px;
+    background-color:white;
+    width: 445px;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-content:center;
+    box-shadow: 0px 2px 23px #2836402a;
+    margin: 50px;
+    
+    margin-bottom:14%;
+
+}
+
+#card{
+    margin-top:25px;
+    width: 100%;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.image-card2 img {
+    padding: 30px;
+    width: 450px;
+    height: 340px;
+}
+
+.card-title2 {
+    padding: 20px;
+}
+
+/*card3--------------------------*/
+.card3 {
+    border-radius: 20px;
+    background-color:white;
+    width: 445px;
+    height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    box-shadow: 0px 2px 23px #2836402a;
+    margin: 0px 18px;
+}
+
+.image-card3 img {
+    padding: 20px;
+    width: 450px;
+    height: 340px;
+}
+
+.card-title3 {
+    padding: 20px;
+}
+
+/*____rodapé-icones___________________________*/
+
+.rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    background-color: black;
+    color: white;
+    margin: 35px;
+    padding: 25px;
+}
+
+/*____rodapé-icones___________________________*/
+
+.social-icons,
+a {
+    font-size: 25px;
+    color: white;
+    margin: 10px;
+
+}
+
+.social-icons a:hover {
+    color: red;
+}
+
+
+/*____rodapé___________________________*/
+
+
+.rodape {
+    margin: 0;
+    padding: 0;
+}
+
+.flags {
+    image-rendering: pixelated;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #050505;
+    width: 100%;
+}
+
+.flags img {
+    image-rendering: pixelated;
+    width: 1000px;
+    height: 100px;
+}
